@@ -1,0 +1,33 @@
+@import "variables";
+@import "helpers";
+@import "reset";
+
+body {
+  background-color: bisque;
+  display: flex;
+  appearance: none;
+}
+
+.p {
+  font-size: 30px;
+}
+
+.box {
+  border: $base-color;
+}
+
+.blogs {
+  @include vertical-mid();
+}
+
+.list1 {
+  @extend %flex-center;
+}
+
+.list2 {
+  @extend %flex-center;
+}
+
+.list3 {
+  @extend %flex-center;
+}
