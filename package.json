@@ -1,7 +1,6 @@
 {
   "name": "adv",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.7.1",
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^4.6.0",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.26.7",
     "cssnano": "^4.1.10",
@@ -25,5 +24,15 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KateCaz/html_advanced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KateCaz/html_advanced/issues"
+  },
+  "homepage": "https://github.com/KateCaz/html_advanced#readme",
+  "description": ""
 }
